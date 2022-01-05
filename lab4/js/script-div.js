@@ -129,7 +129,7 @@ function notificationEvent(text) {
 
     notificationElement.append(text);
 
-    // формування дати
+    // формаування дати
     var today = new Date();
     var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds() + "." + today.getMilliseconds();
 
