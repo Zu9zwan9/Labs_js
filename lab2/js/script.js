@@ -7,9 +7,9 @@ const CONST_LS_COLOR = 'user-input-color';
 
 function changeSection45() {
     var section4 = document.getElementById("section-4");
-    var conteiner = document.getElementById("wrap-section-45");
-    if (conteiner != null) {
-        conteiner.appendChild(section4);
+    var container = document.getElementById("wrap-section-45");
+    if (container != null) {
+        container.appendChild(section4);
     }
 }
 
